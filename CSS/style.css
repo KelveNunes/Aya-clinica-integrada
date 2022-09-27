@@ -1,3 +1,58 @@
-#sobre{
-    color: blue;
+body{
+    margin: 0;
+    background-image:url('../imagens/Pattern1.jpg');
 }
+#conteiner{
+    
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    
+}
+#sobre{
+    color: rgba(0,0,200,0.7);
+}
+
+/* #logo{ 
+    width: 100px;
+    height: 100px;
+    
+}*/
+#listaDeCategorias {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0%;
+    
+}
+li{
+    list-style: none;
+}
+
+#categorias{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+
+}
+header{
+    text-align: center;
+    width: 100%;
+
+}
+
+#SecaoSobre{
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+    height: 33vh;
+    
+
+}
+#SobreTitulo{
+    justify-content: space-around;
+}
+
+
+
