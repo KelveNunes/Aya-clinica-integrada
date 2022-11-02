@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-image:url('../imagens/Pattern1.jpg');
-    font-family: "Font Awesome 6 Free";
+    font-family: 'Philosopher'
 }
 
 
@@ -14,6 +14,7 @@ body{
     background-color: rgba(247,242,238,255);
     margin:0%;
     align-items: flex-end;
+    
     
 }
 li{
@@ -30,6 +31,8 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     
+    
+    
 
 }
 
@@ -43,8 +46,8 @@ header{
 #listaContatos{
     color: rgb(0, 88, 177);
     text-align: center;
-    font-family: Arial;
     width: 30vw;
+    font-family: 'Silence Rocken', sans-serif;
       
 }
 
@@ -60,7 +63,7 @@ button{
     font-size:18px;
     padding:6px 10px;
     height: 35px;
-	border-bottom: #8b8d92;
+	border-bottom: #278cb4;
 	border-bottom-style: solid;
 	transition: 0.5s
 }
@@ -73,32 +76,33 @@ button{
     display: flex;
     width: 100%;
     justify-content: center;
-    font-size: 11px;
+    font-size: 20px;
     color: rgb(0, 88, 177);
     margin-top: 30px;
     flex-direction: column;
     align-items: center;
+    text-align: center; 
+    
 }
-h3{
-    width: 90%;
-}
+
 #agendamento{
     display: flex;
-    justify-content: center;
-    font-size: 11px;
-    color: rgb(0, 88, 177);
+    font-size: 20px;
+    color:  rgb(0, 88, 177);
     margin-top: 30px;
     flex-direction: column;
     align-items: center;
+    text-align: center; 
 }
 #profissionais{
     display: flex;
     justify-content: center;
-    font-size: 11px;
+    font-size: 20px;
     color: rgb(0, 88, 177);
     margin-top: 30px;
     flex-direction: column;
     align-items: center;
+    text-align: center; 
 }
 
 
