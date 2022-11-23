@@ -1,24 +1,6 @@
 {
-  "name": "aya-clinica-integrada",
-  "version": "1.0.0",
-  "description": "Home page aya clinica",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KelveNunes/Aya-clinica-integrada.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KelveNunes/Aya-clinica-integrada/issues"
-  },
-  "homepage": "https://github.com/KelveNunes/Aya-clinica-integrada#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
   }
 }
