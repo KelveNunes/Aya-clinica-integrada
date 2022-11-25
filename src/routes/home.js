@@ -13,19 +13,8 @@ function sendEmail(nome, idade, email, telefone) {
 }
 
 router.get('/', async (req, res)=>{
-    res.render('../views/index')
-    console.log('ólá');
-    
-
-    const nome = req.body.nomecompleto;
-    const idade = req.body.Idade;
-    const email = req.body.email;
-    const telefone = req.body.telefone;
-    
-
-    sendEmail(nome,idade,email,telefone);
-    console.log(req.body)
-    
+    res.render('../views/pages/index')
+ 
     
     
 })

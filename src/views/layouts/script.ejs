@@ -1,0 +1,26 @@
+<script>
+    $(document).ready(function(){
+        $('#sobre').show("2000")
+        $("#agendamento").hide()
+        $("#profissionais").hide()
+        $("#home").click(function(){
+            $('#sobre').toggle("2000")
+            $("#agendamento").hide('2000')
+            $("#profissionais").hide('2000')
+        })
+        
+        $('#agendar').click(function(){
+            $("#agendamento").toggle('2000')
+            $('#sobre').hide("2000")
+            $("#profissionais").hide('2000')
+        })
+
+        $('#profissionaisBtn').click(function(){
+            $("#profissionais").toggle('2000')
+            $("#agendamento").hide('2000')
+            $('#sobre').hide("2000")
+        })
+
+        
+    })
+</script>
