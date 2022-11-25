@@ -5,9 +5,15 @@ const router = express.Router();
 function sendEmail(nome, idade, email, telefone) {
     transporter.sendMail({
         from: nome + '<recsenhacardgame@gmail.com>',
-        to: email,
+        to: 'psicoalannefarias@gmail.com',
         subject: 'Agendamento' ,
-        text: "olá, me chamo " + nome + ' tenho ' + idade + ' anos de idade e meu contato é ' + telefone +' e gostaria de marcar um atendimento'
+        text: "Olá, bom dia." + '\n\n'
+         + "Me chamo " + nome +'\n'
+         + 'Tenho ' + idade + ' anos de idade' +"\n" 
+         +'Meus contatos são: ' + "\n" 
+         +'Telefone: ' + telefone +"\n"
+         +'Email: ' + email + '\n\n'
+         +'Gostaria de agendar uma consulta'
     });
     
 }
