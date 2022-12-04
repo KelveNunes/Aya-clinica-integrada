@@ -5,7 +5,7 @@ const router = express.Router();
 function sendEmail(nome, idade, email, telefone) {
     transporter.sendMail({
         from: nome + '<recsenhacardgame@gmail.com>',
-        to: 'psicoalannefarias@gmail.com',
+        to: 'kelvenunes123@gmail.com',
         subject: 'Agendamento' ,
         text: "Olá, bom dia." + '\n\n'
          + "Me chamo " + nome +'\n'

@@ -10,8 +10,7 @@ body{
     display: flex;
     width: 100vw;
     justify-content: space-evenly;
-
-    background-color: rgba(247,242,238,255);
+    background-color: rgba(247,300,238,300);
     padding: 0%;
     align-items: flex-end;
     
@@ -55,7 +54,7 @@ header{
 }
 button{
     
-    border:1px;
+    border:2px;
     border-radius:6px;
     cursor:pointer;
     font-family: Arial;
@@ -64,7 +63,7 @@ button{
     height: 35px;
 	border-bottom: #278cb4;
 	border-bottom-style: solid;
-	transition: 0.5s
+	transition: 0.1s
 }
     
 #ImagemFrontAya{
@@ -107,6 +106,19 @@ button{
     display: flex;
     padding-left: 2px;
     
+}
+
+#agendar{
+    border:2px;
+    border-radius:6px;
+    cursor:pointer;
+    font-family: Arial;
+    font-size:25px;
+    padding:6px 10px;
+    height: 50px;
+	border-bottom: #278cb4;
+	border-bottom-style: solid;
+	transition: 0.1s
 }
 
 
