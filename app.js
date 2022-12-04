@@ -17,6 +17,6 @@ app.use(bodyParser.json());
 app.use('/', home);
 app.use('/', agendamento);
 
-app.listen(3000, ()=>{
+app.listen("https://ayaclin.onrender.com", ()=>{
     console.log('servidor rodando');
 })
